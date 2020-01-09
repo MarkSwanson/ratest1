@@ -8,7 +8,9 @@ RA runs for about 103 seconds.
 1st try: 70 seconds
 
 2nd try: 10 seconds.
+
 3rd try: 10 seconds.
+
 4th try: instant.
 
 ## Timing - gd (Goto Definition) std::backtrace::Backtrace - line 34
@@ -22,8 +24,11 @@ RA runs for about 103 seconds.
 ## Timing - gd (Goto Definition) String - line 107
 
 1st try: 10 seconds
+
 2nd try: 3 seconds
+
 3rd try: 12 seconds
+
 4th try: 12 seconds
 
 
@@ -38,7 +43,7 @@ I'd really prefer it if rust-analyzer parsed all 141 packages on startup. Ration
 3. I don't care how much memory it takes.
 
 
-## Timing - Code Completion when creating a String in testT() : let s = String::<C-x C-o>
+## Timing - Code Completion when creating a String in testT() : let s = String::\<C-x C-o\>
 
 Each time code completion takes 18 seconds.
 
